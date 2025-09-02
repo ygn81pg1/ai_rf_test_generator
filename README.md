@@ -10,17 +10,17 @@ This repository contains a step-by-step tutorial and implementation for fine-tun
 
 The notebook in this repo guides you through:
 
-Environment Setup – Installing required libraries (Hugging Face Transformers, PEFT, BitsAndBytes, etc.).
+1) Environment Setup – Installing required libraries (Hugging Face Transformers, PEFT, BitsAndBytes, etc.).
 
-Model & LoRA Configuration – Loading LLaMA 3.2 1B with quantization and applying LoRA adapters.
+2) Model & LoRA Configuration – Loading LLaMA 3.2 1B with quantization and applying LoRA adapters.
 
-Dataset Preparation – Building a dataset from Robot Framework test cases or any text dataset.
+3) Dataset Preparation – Building a dataset from Robot Framework test cases or any text dataset.
 
-Training with LoRA – Using Hugging Face Trainer with efficient LoRA fine-tuning.
+4) Training with LoRA – Using Hugging Face Trainer with efficient LoRA fine-tuning.
 
-Saving & Exporting – Saving the fine-tuned model and pushing it to Hugging Face Hub.
+5) Saving & Exporting – Saving the fine-tuned model and pushing it to Hugging Face Hub.
 
-Optional Deployment Formats – Exporting to GGUF format for llama.cpp or other lightweight inference frameworks.
+6) Optional Deployment Formats – Exporting to GGUF format for llama.cpp or other lightweight inference frameworks.
 
 ### 🛠️ Prerequisites
 
